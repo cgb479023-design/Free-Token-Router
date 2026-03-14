@@ -7,8 +7,7 @@ import logging
 from datetime import datetime
 from typing import List, Dict
 
-# Configuration
-OPENROUTER_API_KEY = os.environ.get("OPENROUTER_API_KEY")
+OPENROUTER_API_KEY = os.environ.get("OPEN_ROUTER")
 DB_PATH = "assistant_memory.db"
 MODEL = "openrouter/free"
 FALLBACK_MODEL = "meta-llama/llama-3-8b-instruct:free"

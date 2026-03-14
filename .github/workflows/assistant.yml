@@ -24,7 +24,7 @@ jobs:
 
       - name: Run Assistant Cycle
         env:
-          OPENROUTER_API_KEY: ${{ secrets.OPENROUTER_API_KEY }}
+          OPEN_ROUTER: ${{ secrets.OPEN_ROUTER }}
         run: python assistant_core.py
 
       - name: Save Memory State

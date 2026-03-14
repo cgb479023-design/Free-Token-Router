@@ -36,7 +36,7 @@ class AssistantMemory:
         with sqlite3.connect(self.db_path) as conn:
             conn.execute('INSERT INTO messages (role, content) VALUES (?, ?)', (role, content))
 
-    def get_history((self, limit: int = 10) -> List[Dict]:
+    def get_history(self, limit: int = 10) -> List[Dict]:
         with sqlite3.connect(self.db_path) as conn:
             conn.row_factory = sqlite3.Row
             rows = conn.execute('SELECT role, content FROM (SELECT * FROM messages ORDER BY id DESC LIMIT ?) ORDER BY id ASC', (limit,)).fetchall()

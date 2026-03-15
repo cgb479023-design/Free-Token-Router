@@ -31,6 +31,6 @@ jobs:
         run: |
           git config --global user.name 'github-actions[bot]'
           git config --global user.email 'github-actions[bot]@users.noreply.github.com'
-          git add assistant_memory.db
-          git commit -m "chore: update assistant memory [skip ci]" || echo "No changes to commit"
+          git add assistant_memory.db data.json
+          git commit -m "chore: update assistant pulse [skip ci]" || echo "No changes to commit"
           git push

@@ -1,6 +1,6 @@
 {
-  "market_report": "【实时金融行情汇报】\n- S&P 500: $6582.69 (+1.08%)\n- Nasdaq 100: $24045.53 (+1.79%)\n- Bitcoin: $66975.96 (+0.13%)\n- Gold: $4651.50 (-2.38%)\n- HSI: $25116.53 (-0.55%)\n",
-  "ai_insight": "Error: Unable to reach AI models.",
-  "last_update": "2026-04-03T11:40:12.223536",
+  "market_report": "【实时金融行情汇报】\n- S&P 500: $6582.69 (+1.08%)\n- Nasdaq 100: $24045.53 (+1.79%)\n- Bitcoin: $66566.80 (-0.48%)\n- Gold: $4651.50 (-2.38%)\n- HSI: $25116.53 (-0.55%)\n",
+  "ai_insight": null,
+  "last_update": "2026-04-03T13:13:13.075536",
   "entropy": 0
 }
